@@ -20,7 +20,6 @@ header{
     margin: auto;
     display: flex;
     justify-content: space-between;
-    background-color: red;
 }
 #header-logo{
     width: 30%;
