@@ -12,10 +12,10 @@ a{
 }
 body{
     background-color: #2B2B2BFF;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 header{
-    width: 1200px;
+    width: 100% !important;
     height: 100px;
     margin: auto;
     display: flex;
@@ -69,7 +69,7 @@ transform: scale(0.9);
 }
 #bar{
     position: absolute;
-    right: 10%;
+    right: 1%;
     z-index: 9;
     top: 40px;
     color: #fff;
@@ -80,6 +80,89 @@ transform: scale(0.9);
 }
 .ulshow{
     display: block !important;
+}
+#sec-1{
+    width: 1200px;
+    height: 650px;
+    margin: auto;
+    display: flex;
+}
+#sec-1-div{
+    width: 50%;
+    height: 100%;
+}
+#sec-1-gif{
+    width: 50%;
+    height: 100%;
+}
+#sec-1-gif img{
+    width: 100%;
+}
+#sec-1-div-h1{
+    width: 70%;
+    height: 45%;
+    font-size: 45px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+#sec-1-div-p{
+    width: 80%;
+    height: 25%;
+    font-size: 25px; 
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+#sec-1-div-foot{
+    width: 100%;
+    height: 30%;
+}
+#sec-1-div-foot-btn{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+#sec-1-div-foot-txt{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+#sec-1-div-foot-btn-btn{
+    width: 225px;
+    height: 60px;
+    background-color: #A259FF;
+    border-radius: 20px;
+    border: 2px solid #A259FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+#sec-1-div-foot-btn-btn img{
+    margin-right: 10px;
+}
+#sec-1-div-foot-txt-div{
+    width: 30%;
+    height: 100%;
+}
+#sec-1-div-foot-txt-div-num{
+    width: 100%;
+    height: 50%;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+}
+#sec-1-div-foot-txt-div-txt{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    color: #fff;
 }
 
 
@@ -102,28 +185,42 @@ transform: scale(0.9);
 
 
 @media(max-width:1200px){
+    #sec-1{
+        width: 1000px;
+    }
     header{
         width: 1000px;
+        overflow: hidden;
     }
     #header-ul{
         width: 60%;
     }
 }
 @media(max-width:1000px){
+    #sec-1-div-h1{
+        font-size: 28px;
+    }
+    #sec-1-div-p{
+        font-size: 20px;
+    }
+    #sec-1{
+        width: 90%;
+        height: 500px;
+    }
     header{
-        width: 600px;
+        width: 90%;
     }
     #header-ul{
         width: 40%;
-        height: 100%;
+        height: 35%;
         background-color: rgb(36, 34, 34);
-        position: absolute;
         right: 0;
-        box-shadow: -50px 0px 150px black;
+        box-shadow: -100px 100px 550px black;
         transform: translateX(200%);
-        transition: all 1s;
+        transition: all 1.2s;
         z-index: 2;
         display: block;
+        position: absolute;
     }
     #header-ul li{
         margin-top: 20px;
@@ -134,11 +231,7 @@ transform: scale(0.9);
         display: block;
     }
 }
-@media(max-width:600px){
-    header{
-        width: 350px;
-    }
-}
+
 @media(min-width:1000px){
     #bar{
         display: none;
@@ -150,5 +243,59 @@ transform: scale(0.9);
 @media(min-width:1300px){
     header{
         width: 90%;
+    }
+}
+@media(max-width:900px){
+    #sec-1-div-foot-btn{
+        justify-content: center;
+    }
+    #sec-1{
+        width: 600px;
+        display: block;
+        height: 1000px;
+        position: relative;
+    }
+    #sec-1-div{
+        width: 100%;
+        height: 20%;
+    }
+    #sec-1-gif{
+        width: 100%;
+        height: 60%;
+    }
+    #sec-1-div-foot{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 20%;
+    }
+    #sec-1-div-h1{
+        width: 100%;
+    }
+    #sec-1-div-p{
+        width: 100%;
+        height: 50%;
+    }
+
+}
+@media(max-width:600px){
+    header{
+        width: 350px;
+    }
+    #sec-1{
+        width: 350px;
+        height: 700px;
+    }
+    #sec-1-div{
+        height: 30%;
+    }
+    #sec-1-gif{
+        height: 50%;
+    }
+    #sec-1-div-h1{
+        font-size: 25px;
+    }
+    #sec-1-div-p{
+        font-size: 18px;
     }
 }
