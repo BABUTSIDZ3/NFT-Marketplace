@@ -15,11 +15,12 @@ body{
     overflow-x: hidden;
 }
 header{
-    width: 100% !important;
+    width: 90%;
     height: 100px;
     margin: auto;
     display: flex;
     justify-content: space-between;
+    background-color: red;
 }
 #header-logo{
     width: 30%;
@@ -269,7 +270,7 @@ transform: scale(0.9);
 }
 @media(max-width:600px){
     header{
-        width: 350px;
+        width: 90%;
     }
     #sec-1{
         width: 350px;
