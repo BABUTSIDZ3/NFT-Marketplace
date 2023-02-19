@@ -56,20 +56,9 @@ transform: scale(0.9);
 #head-signup img{
     margin: -5px 7px;
 }
-
-#hidden-div{
-    width: 40%;
-    height: 100%;
-    background-color: gray;
-    position: absolute;
-    box-shadow: -50px 0px 150px black;
-    transform: translateX(200%) !important;
-    transition: all 1s;
-    z-index: 2;
-}
 #bar{
     position: absolute;
-    right: 1%;
+    right: 5%;
     z-index: 9;
     top: 40px;
     color: #fff;
