@@ -195,6 +195,7 @@ header {
 
 #sec-2-txt {
     height: 20%;
+   padding: 0px 5%;
 }
 
 #sec-2-txt-h2 {
@@ -215,7 +216,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
 }
 
 #sec-2-div-div-main-img {
@@ -325,7 +325,9 @@ header {
     #sec-2-div-div3 {
         display: none;
     }
-
+    #sec-2-txt{
+        text-align: center;
+    }
     header {
         width: 1000px;
         overflow: hidden;
@@ -402,7 +404,9 @@ header {
 
 @media(min-width:1400px) {
 
-    #sec-1,
+    #sec-1{
+        width: 1300px;
+    }
     #sec-2 {
         width: 1400px;
     }
