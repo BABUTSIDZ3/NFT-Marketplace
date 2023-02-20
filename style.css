@@ -15,10 +15,9 @@ a {
 
 body {
     background-color: #2B2B2BFF;
-    overflow-x: hidden;
 }
 
-header {
+header { 
     width: 100% !important;
     height: 100px;
     display: flex;
@@ -85,7 +84,7 @@ header {
 }
 
 .show {
-    opacity: 1 !important;
+   transform: translateX(0%) !important;
 }
 
 .ulshow {
@@ -398,15 +397,14 @@ header {
         background-color: rgb(36, 34, 34);
         right: 0;
         box-shadow: -100px 100px 550px black;
-        opacity: 0;
         transition: all 1.2s;
         z-index: 2;
         display: block;
         position: fixed;
-
+transform: translateX(200%);
     }
 
-    #header-ul li {
+    #header-ul li{
         margin-top: 20px;
         width: 150px;
         margin-left: 5%;
