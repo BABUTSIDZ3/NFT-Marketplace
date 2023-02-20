@@ -159,6 +159,7 @@ header {
     justify-content: center;
     color: #fff;
     cursor: pointer;
+    transition: all 0.5s;
 }
 
 #sec-1-div-foot-btn-btn img {
@@ -275,6 +276,16 @@ header {
     position: absolute;
     right: 5%;
     cursor: pointer;
+}
+#hover{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#hover:hover{
+    transform: scale(0.9);
+}
+#sec-1-div-foot-btn-btn:hover{
+    transform: scale(0.9);
 }
 
 
