@@ -115,8 +115,6 @@ header {
 }
 
 #sec-1-div-h1 {
-    width: 70%;
-    height: 45%;
     font-size: 45px;
     color: #fff;
     display: flex;
@@ -124,7 +122,6 @@ header {
 }
 
 #sec-1-div-p {
-    width: 80%;
     height: 25%;
     font-size: 25px;
     display: flex;
