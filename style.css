@@ -457,6 +457,9 @@ header {
 }
 
 @media(max-width:600px) {
+    #sec-1-div-foot-txt-div-num{
+        font-size: 25px;
+    }
     #sec-1 {
         height: 900px;
     }
