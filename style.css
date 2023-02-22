@@ -226,13 +226,6 @@ header {
     color: #fff;
 }
 
-#right {
-    font-size: 30px;
-    color: #fff;
-    position: absolute;
-    right: 5%;
-    cursor: pointer;
-}
 #hover{
     transition: all 0.5s;
     cursor: pointer;
@@ -240,6 +233,42 @@ header {
 #hover:hover,#sec-1-div-foot-btn-btn:hover{
     transform: scale(0.9);
 }
+#left,#right{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -285,9 +314,55 @@ header {
 
 
 @media(max-width:1200px) {
+    #right{
+        display: block;
+        font-size: 30px;
+        color: #fff;
+        right: 1%;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+    #left{
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        color: #fff;
+        left: 1%;
+    }
+    .slider {
+        max-width: 100rem;
+        height: 50rem;
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .slide {
+        width: 330px; 
+        position: absolute;
+        top: 0;
+        height: 50rem;
+        transition: transform 1s; 
+      }
+      .slider-btn {
+        position: absolute;
+        z-index: 10;
+        border: none;
+        font-family: inherit;
+        color: #333;
+        height: 5.5rem;
+        width: 2.5rem;
+        font-size: 3.25rem;
+        cursor: pointer;
+        display: flex !important;
+        align-items: center !important;
+      } 
 
-    #sec-2-div-div3 {
-        display: none;
+    
+    #sec-2-div{
+        overflow: hidden;
+        justify-content: center;
     }
     #sec-2-txt{
         text-align: center;
@@ -302,15 +377,7 @@ header {
     }
 }
 
-@media(max-width:800px) {
-    #sec-2-div-div2 {
-        display: none;
-    }
-}
 @media(max-width:1000px) {
-    #sec-2-div-div3 {
-        display: none;
-    }
     #sec-1-div-h1 {
         font-size: 28px;
     }
@@ -404,5 +471,10 @@ header {
     #sec-1-div-p {
         text-align: center;
         margin: auto;
+    }
+}
+@media(min-width:1200px){
+    .slide{
+        transform: translateX(0%) !important;
     }
 }
