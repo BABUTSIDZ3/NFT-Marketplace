@@ -725,6 +725,9 @@ color: #fff;
     }
 }
 @media(max-width:550px){
+    #sec-3txt-h2{
+        text-align: center;
+    }
     #sec-3{
         height: 800px;
     }
