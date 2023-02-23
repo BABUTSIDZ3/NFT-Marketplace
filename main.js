@@ -14,17 +14,20 @@ slide.forEach((value,index)=>{
 btn_right.addEventListener('click',()=>{
     if(counter==slide.length-1){
         counter=0
-    }else{
+    }
+    else{
         counter++
     }
     slide.forEach((value, index)=>{
         value.style.transform=`translate(${(index-counter)*300}%)` // 0 100 200
     })
 })
+
 btn_left.addEventListener('click',()=>{
     if(counter==0){
         counter=slide.length-1
-    }else{
+    }
+    else{
         counter--
     }
     slide.forEach((value, index)=>{

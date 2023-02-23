@@ -375,6 +375,11 @@ margin-right: 10px;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     position: relative;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+#sec-3-div1-half-div:hover{
+    transform: scale(0.9);
 }
 #sec-3-div1-half-div-index{
     width: 40px;
@@ -749,7 +754,7 @@ color: #fff;
     }
 }
 .slidehide{
-    transform: translateX(-200%) !important;
+    transform: translateX(200%) !important;
 }
 .slideshow{
     transform: translateX(0%) !important;
