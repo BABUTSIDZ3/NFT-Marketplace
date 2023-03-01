@@ -465,6 +465,11 @@ header {
     background-color: #3B3B3B;
     border-radius: 20px;
     position: relative;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#sec-4-div-div:hover{
+    transform: scale(0.9);
 }
 #sec-4-main-img{
     filter: blur(5px);
