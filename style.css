@@ -170,7 +170,6 @@ header {
 }
 
 #sec-2 {
-    padding: 0px 2%;
     height: 650px;
     margin: auto;
     overflow: hidden;
@@ -199,6 +198,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding: 0px 2%;
 }
 
 #sec-2-div-div-main-img {
@@ -440,7 +440,53 @@ header {
     cursor: pointer;
     z-index: 5;
 }
-
+#sec-4{
+    height: 900px;
+}
+#sec-4-txt{
+    height: 10%;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding: 0px 1%;
+}
+#sec-4-div{
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 3%;
+}
+#sec-4-div-div{
+    width: 240px;
+    height: 320px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    position: relative;
+}
+#sec-4-main-img{
+    filter: blur(5px);
+    width: 100%;
+}
+#icon{
+    position: absolute;
+    right: 27%;
+    top: 20%;
+}
+#sec-4-div-txt{
+    height: 20%;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding: 0px 8%;
+}
+#sec-4-divs{
+    height: 100%;
+}
 
 
 
@@ -613,6 +659,18 @@ header {
         width: 60%;
     }
 }
+@media(max-width:1100px){
+    #icon{
+        right: 20%;
+    }
+    #sec-4-div-div{
+        width: 180px;
+        height: 250px;
+    }
+    #sec-4{
+        height: 700px;
+    }
+}
 
 @media(max-width:1000px) {
 
@@ -675,12 +733,37 @@ header {
         width: 1300px;
     }
 
-    #sec-2 {
+    #sec-2,#sec-3,#sec-4 {
         width: 1400px;
+        margin: auto;
     }
+
 }
 
 @media(max-width:900px) {
+    #sec-4-div-div{
+        width: 240px;
+        height: 320px;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+        position: relative;
+    }
+    #sec-4-txt{
+        height: 6%;
+    }
+    #sec-4-div{
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+    }
+    #sec-4-divs{
+        display: flex;
+        height: 94%;
+    }
+    #sec-4{
+        height: 1500px;
+    }
+
     #sec-1-div-h1 {
         height: 30%;
     }
@@ -714,6 +797,13 @@ header {
 }
 
 @media(max-width:600px) {
+    #sec-4-div-div{
+        width: 180px;
+        height: 250px;
+    }
+    #sec-4{
+        height: 1200px;
+    }
     #sec-1-div-foot-txt-div-num {
         font-size: 25px;
     }
@@ -763,6 +853,10 @@ header {
 
     #sec-3-div1-half-div-sale {
         text-align: center;
+    }
+    #sec-1-gif{
+        display: flex;
+        align-items: flex-end;
     }
 }
 
