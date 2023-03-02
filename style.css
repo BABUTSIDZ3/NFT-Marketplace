@@ -802,6 +802,10 @@ header {
 }
 
 @media(max-width:600px) {
+    #sec-2-txt-h2{
+        display: flex;
+        justify-content: center;
+    }
     #sec-4-div-div{
         width: 180px;
         height: 250px;
@@ -812,7 +816,9 @@ header {
     #sec-1-div-foot-txt-div-num {
         font-size: 25px;
     }
-
+    #sec-1-div-foot-txt{
+        padding-left: 10%;
+    }
     #sec-1 {
         height: 900px;
     }
@@ -827,16 +833,16 @@ header {
 
     #sec-1-div-h1,
     #sec-1-div-p {
-        text-align: center;
         margin: auto;
+        justify-content: center;
     }
+
 }
 
 @media(max-width:550px) {
     #sec-3txt-h2 {
         text-align: center;
     }
-
     #sec-3 {
         height: 800px;
     }
@@ -861,7 +867,10 @@ header {
     }
     #sec-1-gif{
         display: flex;
-        align-items: flex-end;
+      align-items: center;
+    }
+    #sec-1{
+        padding: 0px 3%;
     }
 }
 
