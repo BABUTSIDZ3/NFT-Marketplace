@@ -432,6 +432,7 @@ header {
     display: none;
     z-index: 5;
 }
+
 #sec-3-right {
     color: #fff;
     font-size: 30px;
@@ -440,10 +441,12 @@ header {
     cursor: pointer;
     z-index: 5;
 }
-#sec-4{
+
+#sec-4 {
     height: 900px;
 }
-#sec-4-txt{
+
+#sec-4-txt {
     height: 10%;
     color: #fff;
     font-size: 35px;
@@ -452,14 +455,16 @@ header {
     align-items: center;
     padding: 0px 1%;
 }
-#sec-4-div{
+
+#sec-4-div {
     height: 45%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0px 3%;
 }
-#sec-4-div-div{
+
+#sec-4-div-div {
     width: 240px;
     height: 320px;
     background-color: #3B3B3B;
@@ -468,19 +473,23 @@ header {
     transition: all 0.5s;
     cursor: pointer;
 }
-#sec-4-div-div:hover{
+
+#sec-4-div-div:hover {
     transform: scale(0.9);
 }
-#sec-4-main-img{
+
+#sec-4-main-img {
     filter: blur(5px);
     width: 100%;
 }
-#icon{
+
+#icon {
     position: absolute;
     right: 27%;
     top: 20%;
 }
-#sec-4-div-txt{
+
+#sec-4-div-txt {
     height: 20%;
     color: #fff;
     font-size: 25px;
@@ -489,7 +498,8 @@ header {
     align-items: center;
     padding: 0px 8%;
 }
-#sec-4-divs{
+
+#sec-4-divs {
     height: 100%;
 }
 
@@ -664,15 +674,18 @@ header {
         width: 60%;
     }
 }
-@media(max-width:1100px){
-    #icon{
+
+@media(max-width:1100px) {
+    #icon {
         right: 20%;
     }
-    #sec-4-div-div{
+
+    #sec-4-div-div {
         width: 180px;
         height: 250px;
     }
-    #sec-4{
+
+    #sec-4 {
         height: 700px;
     }
 }
@@ -738,7 +751,9 @@ header {
         width: 1300px;
     }
 
-    #sec-2,#sec-3,#sec-4 {
+    #sec-2,
+    #sec-3,
+    #sec-4 {
         width: 1400px;
         margin: auto;
     }
@@ -746,26 +761,30 @@ header {
 }
 
 @media(max-width:900px) {
-    #sec-4-div-div{
+    #sec-4-div-div {
         width: 240px;
         height: 320px;
         background-color: #3B3B3B;
         border-radius: 20px;
         position: relative;
     }
-    #sec-4-txt{
+
+    #sec-4-txt {
         height: 6%;
     }
-    #sec-4-div{
+
+    #sec-4-div {
         flex-direction: column;
         width: 50%;
         height: 100%;
     }
-    #sec-4-divs{
+
+    #sec-4-divs {
         display: flex;
         height: 94%;
     }
-    #sec-4{
+
+    #sec-4 {
         height: 1500px;
     }
 
@@ -802,23 +821,32 @@ header {
 }
 
 @media(max-width:600px) {
-    #sec-2-txt-h2{
+    #sec-4-txt {
+        justify-content: center;
+    }
+
+    #sec-2-txt-h2 {
         display: flex;
         justify-content: center;
     }
-    #sec-4-div-div{
+
+    #sec-4-div-div {
         width: 180px;
         height: 250px;
     }
-    #sec-4{
+
+    #sec-4 {
         height: 1200px;
     }
+
     #sec-1-div-foot-txt-div-num {
         font-size: 25px;
     }
-    #sec-1-div-foot-txt{
+
+    #sec-1-div-foot-txt {
         padding-left: 10%;
     }
+
     #sec-1 {
         height: 900px;
     }
@@ -833,16 +861,42 @@ header {
 
     #sec-1-div-h1,
     #sec-1-div-p {
-        margin: auto;
+        text-align: center;
         justify-content: center;
     }
 
 }
 
 @media(max-width:550px) {
+    #sec-2 {
+        height: 550px;
+    }
+
+    #sec-2-div-div-foot {
+        padding: 0px 5%;
+    }
+
+    #sec-2-div-div-images {
+        justify-content: space-around;
+    }
+
+    #sec-2-div-div-images img {
+        width: 25%;
+    }
+
+    #sec-2-div-div-main-img img {
+        margin: auto;
+        width: 80%;
+    }
+
+    #sec-2-div-div-main-img {
+        height: 35%;
+    }
+
     #sec-3txt-h2 {
         text-align: center;
     }
+
     #sec-3 {
         height: 800px;
     }
@@ -865,13 +919,41 @@ header {
     #sec-3-div1-half-div-sale {
         text-align: center;
     }
-    #sec-1-gif{
+
+    #sec-1-gif {
         display: flex;
-      align-items: center;
+        align-items: center;
     }
-    #sec-1{
+
+    #sec-1 {
         padding: 0px 3%;
     }
+}
+
+@media(max-width:450px) {
+    #icon{
+        top: 7%;
+        right: 10%;
+    }
+    header {
+        padding: 0px;
+    }
+    #sec-4{
+        height: 950px;
+    }
+    #sec-4-div-div {
+        width: 130px;
+        height: 200px;
+    }
+
+    #sec-4-div-txt {
+        font-size: 20px;
+    }
+
+    #sec-4-txt {
+        text-align: center;
+    }
+
 }
 
 @media(min-width:1200px) {
@@ -895,4 +977,3 @@ header {
 .slideshow {
     transform: translateX(0%) !important;
 }
-
