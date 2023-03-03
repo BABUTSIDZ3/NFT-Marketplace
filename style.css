@@ -503,6 +503,101 @@ header {
     height: 100%;
 }
 
+#sec-5 {
+    height: 700px;
+    padding: 0px 5%;
+}
+
+#sec-5-head {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+}
+
+#sec-5-head2 {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 25px;
+}
+
+#sec-5-head2-btn {
+    width: 180px;
+    height: 60px;
+    border: 2px solid #A259FF;
+    background-color: #2B2B2BFF;
+    cursor: pointer;
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sec-5-head2-btn img {
+    margin-right: 10%;
+}
+#sec-5-divs{
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 2%;
+}
+#sec-5-div{
+    width: 330px;
+    height: 470px;
+    border-radius: 20px;
+    background-color: #3B3B3B;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#sec-5-div:hover{
+    transform: scale(0.9);
+}
+#sec-5-div-txt{
+    padding: 0px 10%;
+    height: 10%;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+}
+#sec-5-div-txt2{
+    padding: 0px 10%;
+    width: 58%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#sec-5-div-txt2 p{
+    color: #fff;
+    font-size: 18px;
+}
+#sec-5-price{
+    padding: 0px 10%;
+    height: 10%;
+    color: #858584;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#sec-5-price2{
+    padding: 0px 9%;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 18px;
+}
+
 
 
 
@@ -582,6 +677,9 @@ header {
 
 
 @media(max-width:1200px) {
+    #sec-5{
+        padding: 0px 1%;
+    }
     #sec-3-right {
         display: block;
     }
@@ -676,6 +774,26 @@ header {
 }
 
 @media(max-width:1100px) {
+    #sec-5-div-txt2,#sec-5-div-txt,#sec-5-price,#sec-5-price2{
+        height: 7%;
+    }
+    #sec-5-head,#sec-5-head2{
+        height: 5%;
+    }
+    #sec-5{
+        height: 2000px;
+    }
+    #sec-5-divs{
+        height: 90%;
+        flex-direction: column;
+    }
+    #sec-5-div{
+        width: 450px;
+        height: 550px;
+    }
+  #sec-5-div-main-img{
+    width: 100%;
+  }
     #icon {
         right: 20%;
     }
@@ -689,6 +807,7 @@ header {
         height: 700px;
     }
 }
+
 
 @media(max-width:1000px) {
 
@@ -752,9 +871,13 @@ header {
     }
 
     #sec-2,
-    #sec-3,
-    #sec-4 {
+    #sec-3,#sec-5 {
         width: 1400px;
+        margin: auto;
+    }
+
+    #sec-4 {
+        width: 1250px;
         margin: auto;
     }
 
@@ -821,6 +944,10 @@ header {
 }
 
 @media(max-width:600px) {
+    #sec-5-head{
+        justify-content: center;
+        text-align: center;
+    }
     #sec-4-txt {
         justify-content: center;
     }
@@ -868,6 +995,21 @@ header {
 }
 
 @media(max-width:550px) {
+    #sec-5{
+        height: 1700px;
+    }
+    #sec-5-div-txt,#sec-5-div-txt2,#sec-5-price{
+        height: 10%;
+    }
+    #sec-5-price2{
+        height: 5%;
+    }
+    #sec-5-div{
+        width: 330px;
+        height: 470px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+    }
     #sec-2 {
         height: 550px;
     }
@@ -878,6 +1020,7 @@ header {
 
     #sec-2-div-div-images {
         justify-content: space-around;
+        padding: 0px 5%;
     }
 
     #sec-2-div-div-images img {
@@ -931,16 +1074,33 @@ header {
 }
 
 @media(max-width:450px) {
-    #icon{
+    #sec-5-head{
+        height: 10%;
+    }
+    #sec-5{
+        height: 1500px;
+    }
+    #sec-5-divs{
+        height: 85%;
+    }
+#sec-5-div{
+    width: 280px;
+    height: 400px;
+}
+
+    #icon {
         top: 7%;
         right: 10%;
     }
+
     header {
         padding: 0px;
     }
-    #sec-4{
+
+    #sec-4 {
         height: 950px;
     }
+
     #sec-4-div-div {
         width: 130px;
         height: 200px;
@@ -954,6 +1114,17 @@ header {
         text-align: center;
     }
 
+}
+@media(max-width:400px){
+    #sec-4-txt{
+        height: 12%;
+    }
+    #sec-4-divs{
+        height: 88%;
+    }
+    #header-ul{
+        width: 50%;
+    }
 }
 
 @media(min-width:1200px) {
