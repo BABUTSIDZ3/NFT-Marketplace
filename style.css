@@ -198,7 +198,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 0px 2%;
 }
 
 #sec-2-div-div-main-img {
@@ -267,7 +266,7 @@ header {
     display: none;
 }
 
-#sec-2-div-div-main-img {
+#sec-2-div-div-main-img img{
     transform: matrix3d();
     transform-style: preserve-3d;
     animation: rotate 5s linear infinite;
