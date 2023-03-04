@@ -787,6 +787,7 @@ header {
         flex-direction: column;
     }
     #sec-5-div{
+        border-radius: 30px;
         width: 450px;
         height: 550px;
     }
