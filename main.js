@@ -54,6 +54,44 @@ sec3left.addEventListener('click',function(){
     slide1.classList.remove('slidehide')
 slide2.classList.toggle('slidehide')
 slide2.classList.remove('slideshow')
-
 })
+let timer
+let timer1=document.getElementById('timer1')
+let timer2=document.getElementById('timer2')
+let timer3=document.getElementById('timer3')
+let timeron=document.getElementById('timeron')
+let timeroff=document.getElementById('timeroff')
+function myfunc(){ 
+    let time1=59 
+    let time2=59 
+    let time3=59 
+    timer=setInterval(()=>{
+        timer1.innerText=time1
+        time1-- 
+          if(time1==0){
+            timeroff.style.display='flex'
+            timeron.style.display='none'
+    }
+    },1000*30*30)
+     timer=setInterval(()=>{
+        timer2.innerText=time2
+        time2--
+        if(time2==0){
+            time2=59
+         }
+        
+    },1000*30)
+    timer=setInterval(()=>{
+        timer3.innerText=time3
+        time3--
+        if(time3==0){
+        time3=59
+         }
+    },1000)
+
+
+
+
+}
+myfunc()
 
