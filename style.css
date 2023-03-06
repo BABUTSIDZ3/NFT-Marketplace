@@ -793,7 +793,88 @@ header {
     font-size: 18px;
     text-align: center;
 }
+#sec-8{
+    height: 500px;
+    padding: 0px 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sec-8-div{
+    width: 100%;
+    height: 430px;
+    background-color: #3B3B3B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#sec-8-div-img{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sec-8-div-img img{
+width: 90%;
+}
+#sec-8-div2{
+    padding: 1% 5%;
+    height: 75%;
+    width: 60%;
+    position: relative;
+}
+#sec-8-div2-h2{
+    width: 60%;
+    height: 30%;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
 
+#sec-8-div2-p{
+    width: 80%;
+    height: 40%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+#sec-8-div2-mail{
+    width: 425px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #fff;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+#sec-8-div2-mail-mail{
+    border:none;
+    outline: none;
+    height: 90%;
+    border-radius: 20px;
+    width: 50%;
+}
+#sec-8-div2-mail-mail-btn{
+    width: 210px;
+    height: 60px;
+    background-color: #A259FF;
+    border-radius: 20px;
+    border: 1px solid #A259FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 5%;
+    font-weight: 600;
+    font-size: 22px;
+    color: #fff;
+    cursor: pointer;
+}
+#sec-8-div2-mail-mail-btn img{
+    width: 30px;
+}
 
 
 
@@ -985,6 +1066,19 @@ header {
 }
 
 @media(max-width:1100px) {
+    #sec-8-div2-mail{
+        width: 90%;
+    }
+    #sec-8{
+        height: 400px;
+    }
+    #sec-8-div{
+        height: 80%;
+    }
+    #sec-8-div2-h2{
+        width: 100%;
+        font-size: 35px;
+    }
 
     #sec-5-div-txt2,
     #sec-5-div-txt,
@@ -1126,10 +1220,13 @@ header {
         height: 100%;
     }
 
-    #sec-5 {
+    #sec-5,#sec-7{
         padding: 0px 2%;
         width: 1500px;
         margin: auto;
+    }
+    #sec-7-divs{
+        padding: 0px 3%;
     }
 
     #sec-4 {
@@ -1204,6 +1301,23 @@ header {
 }
 
 @media(max-width:800px) {
+    #sec-8-div{
+        flex-direction: column;
+    }
+    #sec-8-div2{
+       width: 90%;
+    }
+    #sec-8{
+        height: 550px;
+    }
+    #sec-8-div-img{
+        width: 45%;
+        height: 50%;
+    }
+    #sec-8-div2-h2,#sec-8-div2-p{
+        text-align: center;
+        width: 100%;
+    }
     #sec-7-txt,#sec-7-txt2{
         justify-content: center;
     }
@@ -1242,6 +1356,10 @@ header {
 }
 
 @media(max-width:600px) {
+    #sec-8-div-img{
+        width: 65%;
+        height: 50%;
+    }
     #timer {
         position: static;
         margin-top: 5%;
@@ -1319,6 +1437,25 @@ header {
 }
 
 @media(max-width:550px) {
+    #sec-8-div2-mail{
+        flex-direction: column;
+        width: 100%;
+    }
+    #sec-8{
+        height: 700px;
+    }
+    #sec-8-div2-p{
+        height: 20%;
+    }
+    #sec-8-div2-mail-mail{
+        width: 100%;
+     margin: auto;
+    }
+    #sec-8-div2-mail-mail-btn{
+        position: absolute;
+        bottom: 5%;
+        
+    }
     #sec-7-divs-div-p {
         font-size: 14px;
     }
