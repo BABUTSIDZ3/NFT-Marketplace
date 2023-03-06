@@ -66,26 +66,19 @@ function myfunc() {
     let time2 = 59
     let time3 = 59
     timer = setInterval(() => {
-        timer1.innerText = time1
-        time1--
-        if (time1 == 0) {
-            timeroff.style.display = 'flex'
-            timeron.style.display = 'none'
-        }
-    }, 1000 * 30 * 30)
-    timer = setInterval(() => {
-        timer2.innerText = time2
-        time2--
-        if (time2 == 0) {
-            time2 = 59
-        }
-
-    }, 1000 * 30)
-    timer = setInterval(() => {
         timer3.innerText = time3
         time3--
         if (time3 == 0) {
             time3 = 59
+            time2--
+            timer2.innerText=time2
+        }else if(time2==0){
+            time2=59
+            time1--
+            timer1.innerText=time1
+        }else if(time1==0){
+            timeroff.style.display='flex'
+            timeron.style.display='none'
         }
     }, 1000)
 
