@@ -878,7 +878,9 @@ header {
     #sec-7-divs-div-img {
         height: 60%;
     }
-
+    #sec-7{
+        height: 500px;
+    }
     #sec-7-divs-div {
         width: 260px;
         height: 350px;
@@ -1201,6 +1203,9 @@ header {
 }
 
 @media(max-width:800px) {
+    #sec-7-txt,#sec-7-txt2{
+        justify-content: center;
+    }
     #sec-7-divs-div-h3 {
         position: absolute;
         top: 0;
@@ -1229,6 +1234,9 @@ header {
         display: flex;
         position: relative;
         align-items: flex-end;
+    }
+    #sec-7{
+        height: 650px;
     }
 }
 
