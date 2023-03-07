@@ -793,14 +793,16 @@ header {
     font-size: 18px;
     text-align: center;
 }
-#sec-8{
+
+#sec-8 {
     height: 500px;
     padding: 0px 4%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#sec-8-div{
+
+#sec-8-div {
     width: 100%;
     height: 430px;
     background-color: #3B3B3B;
@@ -808,22 +810,26 @@ header {
     align-items: center;
     justify-content: space-between;
 }
-#sec-8-div-img{
+
+#sec-8-div-img {
     width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#sec-8-div-img img{
-width: 90%;
+
+#sec-8-div-img img {
+    width: 90%;
 }
-#sec-8-div2{
+
+#sec-8-div2 {
     padding: 1% 5%;
     height: 75%;
     width: 60%;
     position: relative;
 }
-#sec-8-div2-h2{
+
+#sec-8-div2-h2 {
     width: 60%;
     height: 30%;
     color: #fff;
@@ -831,7 +837,7 @@ width: 90%;
     font-weight: 700;
 }
 
-#sec-8-div2-p{
+#sec-8-div2-p {
     width: 80%;
     height: 40%;
     color: #fff;
@@ -840,24 +846,27 @@ width: 90%;
     display: flex;
     align-items: center;
 }
-#sec-8-div2-mail{
+
+#sec-8-div2-mail {
     width: 425px;
     height: 60px;
     border-radius: 20px;
     background-color: #fff;
-display: flex;
-align-items: center;
-justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
-#sec-8-div2-mail-mail{
-    border:none;
+
+#sec-8-div2-mail-mail {
+    border: none;
     outline: none;
     height: 90%;
     border-radius: 20px;
     width: 50%;
 }
-#sec-8-div2-mail-mail-btn{
+
+#sec-8-div2-mail-mail-btn {
     width: 210px;
     height: 60px;
     background-color: #A259FF;
@@ -872,10 +881,118 @@ justify-content: space-between;
     color: #fff;
     cursor: pointer;
 }
-#sec-8-div2-mail-mail-btn img{
+
+#sec-8-div2-mail-mail-btn img {
     width: 30px;
 }
 
+#sec-9 {
+    position: relative;
+    height: 350px;
+    padding: 2% 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sec-9-div {
+    width: 32%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#sec-9-div-head {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#sec-9-div-head img {
+    width: 90%;
+}
+
+#sec-9-div-txt {
+    height: 30%;
+    width: 60%;
+    color: #CCCCCCFF;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+#sec-9-div-txt2 {
+    height: 15%;
+    width: 60%;
+    color: #CCCCCCFF;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+#sec-9-div-txt3 {
+    height: 15%;
+    width: 60%;
+    color: #CCCCCCFF;
+    display: flex;
+    font-size: 20px;
+}
+
+#sec-9-div-icons {
+    height: 20%;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.fa-discord {
+    color: #5562EAFF;
+}
+
+.fa-youtube {
+    color: #FF0000FF;
+}
+
+.fa-twitter {
+    color: #1DA1F2FF;
+}
+
+.fa-instagram {
+    background: linear-gradient(to right, #FA9023FF, #C62E89FF);
+    border-radius: 10px;
+    color: #fff;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sec-9-div-mail {
+    width: 100%;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sec-9-foot {
+    position: absolute;
+    width: 94%;
+    height: 20%;
+    bottom: 2%;
+    border-top: 1px solid #858584FF;
+    color: #858584FF;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
 
 
 
@@ -960,9 +1077,11 @@ justify-content: space-between;
     #sec-7-divs-div-img {
         height: 60%;
     }
-    #sec-7{
+
+    #sec-7 {
         height: 500px;
     }
+
     #sec-7-divs-div {
         width: 260px;
         height: 350px;
@@ -1066,16 +1185,19 @@ justify-content: space-between;
 }
 
 @media(max-width:1100px) {
-    #sec-8-div2-mail{
+    #sec-8-div2-mail {
         width: 90%;
     }
-    #sec-8{
+
+    #sec-8 {
         height: 400px;
     }
-    #sec-8-div{
+
+    #sec-8-div {
         height: 80%;
     }
-    #sec-8-div2-h2{
+
+    #sec-8-div2-h2 {
         width: 100%;
         font-size: 35px;
     }
@@ -1204,7 +1326,8 @@ justify-content: space-between;
     }
 
     #sec-2,
-    #sec-3 {
+    #sec-3,
+    #sec-9 {
         width: 1400px;
         margin: auto;
     }
@@ -1213,19 +1336,22 @@ justify-content: space-between;
         height: 300px;
     }
 
-    #sec-6-div {
+    #sec-6-div,
+    #sec-8 {
         padding: 0px 2%;
         width: 1400px;
         margin: auto;
         height: 100%;
     }
 
-    #sec-5,#sec-7{
+    #sec-5,
+    #sec-7 {
         padding: 0px 2%;
         width: 1500px;
         margin: auto;
     }
-    #sec-7-divs{
+
+    #sec-7-divs {
         padding: 0px 3%;
     }
 
@@ -1237,6 +1363,60 @@ justify-content: space-between;
 }
 
 @media(max-width:900px) {
+    .sec-8-div2-mail-mail-btn {
+        width: 55% !important;
+    }
+
+    #sec-9-div-mail {
+        display: flex;
+        width: 60%;
+        margin: 0px auto 80px;
+    }
+
+    #sec-9 {
+        padding: 0px 3%;
+        height: 1000px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #sec-9-div {
+        width: 100%;
+        height: 30%;
+    }
+    #sec-9-div-icons {
+        margin: auto;
+    }
+
+    #sec-9-div-txt {
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    #sec-9-div-txt3 {
+        justify-content: center;
+        width: 100%;
+    }
+
+    #sec-9-div-txt2 {
+        justify-content: center;
+        width: 100%;
+    }
+
+    #sec-9-div-head {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #sec-9-foot {
+        height: 3%;
+        bottom: 0;
+        justify-content: center;
+    }
+
     #sec-6-txt2 {
         font-size: 28px;
     }
@@ -1301,26 +1481,34 @@ justify-content: space-between;
 }
 
 @media(max-width:800px) {
-    #sec-8-div{
+    #sec-8-div {
         flex-direction: column;
     }
-    #sec-8-div2{
-       width: 90%;
+
+    #sec-8-div2 {
+        width: 90%;
     }
-    #sec-8{
+
+    #sec-8 {
         height: 550px;
     }
-    #sec-8-div-img{
+
+    #sec-8-div-img {
         width: 45%;
         height: 50%;
     }
-    #sec-8-div2-h2,#sec-8-div2-p{
+
+    #sec-8-div2-h2,
+    #sec-8-div2-p {
         text-align: center;
         width: 100%;
     }
-    #sec-7-txt,#sec-7-txt2{
+
+    #sec-7-txt,
+    #sec-7-txt2 {
         justify-content: center;
     }
+
     #sec-7-divs-div-h3 {
         position: absolute;
         top: 0;
@@ -1350,16 +1538,19 @@ justify-content: space-between;
         position: relative;
         align-items: flex-end;
     }
-    #sec-7{
+
+    #sec-7 {
         height: 650px;
     }
 }
 
 @media(max-width:600px) {
-    #sec-8-div-img{
+
+    #sec-8-div-img {
         width: 65%;
         height: 50%;
     }
+
     #timer {
         position: static;
         margin-top: 5%;
@@ -1437,25 +1628,34 @@ justify-content: space-between;
 }
 
 @media(max-width:550px) {
-    #sec-8-div2-mail{
+    .sec-8-div2-mail-mail-btn {
+        margin-bottom: -3%;
+    }
+    #sec-8-div2-mail {
         flex-direction: column;
         width: 100%;
+        margin-top: 5%;
     }
-    #sec-8{
+
+    #sec-8 {
         height: 700px;
     }
-    #sec-8-div2-p{
+
+    #sec-8-div2-p {
         height: 20%;
     }
-    #sec-8-div2-mail-mail{
+
+    #sec-8-div2-mail-mail {
         width: 100%;
-     margin: auto;
+        margin: auto;
     }
-    #sec-8-div2-mail-mail-btn{
+
+    #sec-8-div2-mail-mail-btn {
         position: absolute;
         bottom: 5%;
-        
+
     }
+
     #sec-7-divs-div-p {
         font-size: 14px;
     }
@@ -1575,8 +1775,6 @@ justify-content: space-between;
 
     #sec-6 {
         height: 450px;
-        ;
-
     }
 
     #sec-5-head {
@@ -1625,6 +1823,16 @@ justify-content: space-between;
 }
 
 @media(max-width:400px) {
+    .sec-8-div2-mail-mail-btn {
+        margin-bottom: 1%;
+    }
+    .sec-9-div-mail{
+        margin-bottom: 30% !important;
+    }
+    #sec-9-foot{
+        height: 5%;
+        text-align: center;
+    }
     #sec-4-txt {
         height: 12%;
     }
@@ -1635,6 +1843,11 @@ justify-content: space-between;
 
     #header-ul {
         width: 50%;
+    }
+}
+@media(max-width:350px){
+    .sec-9-div-mail{
+        margin-bottom: 38% !important;
     }
 }
 
