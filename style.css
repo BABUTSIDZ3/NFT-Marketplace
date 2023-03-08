@@ -1667,14 +1667,15 @@ header {
     #sec-7-txt,
     #sec-7-txt2 {
         text-align: center;
+        height: 10%;
     }
 
     #sec-7 {
-        height: 600px;
+        height: 450px;
     }
 
     #sec-7-divs {
-        height: 75%;
+        height: 90%;
         justify-content: space-around;
     }
 
