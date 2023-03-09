@@ -1,0 +1,166 @@
+body {
+    background-color: #2B2B2BFF;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100% !important;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    padding: 0px 50px;
+    background-color: #2B2B2BFF;
+    z-index: 99;
+    top: 0;
+}
+
+#placeholder {
+    height: 100px;
+}
+
+#header-logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#header-ul {
+    width: 600px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#header-ul li {
+    transition: all 0.6s;
+}
+
+#header-ul li a {
+    color: #fff;
+    font-size: 18px;
+}
+
+#header-ul li:hover {
+    transform: scale(0.9);
+}
+
+#head-signup {
+    width: 150px;
+    height: 60px;
+    background-color: #A259FFFF;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#head-signup img {
+    margin: -5px 7px;
+}
+
+#bar {
+    position: absolute;
+    right: 5%;
+    z-index: 9;
+    top: 40px;
+    color: #fff;
+    display: none;
+}
+
+.show,
+.slideshow {
+    transform: translateX(0%) !important;
+}
+
+.ulshow {
+    display: block !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1200px) {
+    header {
+        width: 1000px;
+        overflow: hidden;
+    }
+
+    #header-ul {
+        width: 60%;
+    }
+}
+
+
+@media(max-width:1000px) {
+    #header-ul {
+        width: 40%;
+        height: 100%;
+        background-color: rgb(36, 34, 34);
+        right: 0;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 18px;
+        transition: all 0.9s;
+        z-index: 2;
+        display: block;
+        position: fixed;
+        transform: translateX(100%);
+    }
+
+    .fa-bars {
+        cursor: pointer;
+        display: block !important;
+    }
+
+    #header-ul li {
+        margin-top: 20px;
+        width: 150px;
+        margin-left: 5%;
+    }
+}
+@media(min-width:1000px) {
+
+    #bar {
+        display: none;
+    }
+
+    #header-ul {
+        display: flex !important;
+    }
+}
+@media(max-width:400px) {
+    #header-ul {
+        width: 50%;
+    }
+}

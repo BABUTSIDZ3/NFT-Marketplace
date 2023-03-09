@@ -2,7 +2,6 @@ body {
     background-color: #2B2B2BFF;
     font-family: sans-serif;
 }
-
 header {
     width: 100% !important;
     height: 100px;
@@ -13,6 +12,7 @@ header {
     background-color: #2B2B2BFF;
     z-index: 99;
     top: 0;
+
 }
 
 #placeholder {
