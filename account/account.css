@@ -78,6 +78,10 @@ header {
 .ulshow {
     display: block !important;
 }
+#sec-1{
+    height: 650px;
+    border: 2px solid red;
+}
 
 
 
