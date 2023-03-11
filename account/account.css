@@ -3,6 +3,14 @@ body {
     font-family: sans-serif;
 }
 
+input {
+    outline: none;
+    width: 330px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+}
+
 header {
     width: 100% !important;
     height: 100px;
@@ -65,7 +73,7 @@ header {
     position: absolute;
     right: 5%;
     z-index: 9;
-    top: 40px;
+    top: 28px;
     color: #fff;
     display: none;
 }
@@ -78,12 +86,66 @@ header {
 .ulshow {
     display: block !important;
 }
-#sec-1{
+
+#sec-1 {
     height: 650px;
-    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
 }
 
+#sec-1-bg-img {
+    width: 50%;
+    height: 100%;
+    background-image: url(../images/account-bg-Image\ Placeholder.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
+#sec-1-div {
+    width: 50%;
+    height: 100%;
+}
+
+#sec-1-div-h2 {
+    margin-top: 10%;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    padding: 0% 10%;
+}
+
+#sec-1-div-p {
+    width: 400px;
+    color: #fff;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    padding: 0% 10%;
+}
+
+#sec-1-btn {
+    width: 330px;
+    height: 50px;
+    background-color: #A259FF;
+    border: 1px solid #A259FF;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+form {
+    height: 50%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 8%;
+}
 
 
 
@@ -122,15 +184,11 @@ header {
         overflow: hidden;
     }
 
-    #header-ul {
-        width: 60%;
-    }
+
 }
-
-
 @media(max-width:1000px) {
     #header-ul {
-        width: 40%;
+        width: fit-content;
         height: 100%;
         background-color: rgb(36, 34, 34);
         right: 0;
@@ -140,8 +198,11 @@ header {
         display: block;
         position: fixed;
         transform: translateX(100%);
+        padding: 1%;
     }
-
+header{
+    height: 70px;
+}
     .fa-bars {
         cursor: pointer;
         display: block !important;
@@ -149,10 +210,45 @@ header {
 
     #header-ul li {
         margin-top: 20px;
-        width: 150px;
-        margin-left: 5%;
+        width: 190px;
+        margin-left: 2%;
     }
 }
+@media(max-width:850px){
+    #sec-1{
+        flex-direction: column;
+        height: 1000px;
+    }
+    #sec-1-div,#sec-1-bg-img{
+width: 100%;
+height: 50%;
+    }
+    #sec-1-div-h2,#sec-1-div-p{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+        height: 65%;
+        margin: auto;
+
+    }
+}
+@media(max-width:500px){
+    header{
+        padding: 1%;
+    }
+    input,#sec-1-btn{
+        width: 90%;
+    }
+    #sec-1-div-h2{
+        font-size: 28px;
+        justify-content: center;
+    }
+    #sec-1-div-p{
+        text-align: center;
+    }
+}
+
 @media(min-width:1000px) {
 
     #bar {
@@ -161,10 +257,5 @@ header {
 
     #header-ul {
         display: flex !important;
-    }
-}
-@media(max-width:400px) {
-    #header-ul {
-        width: 50%;
     }
 }
