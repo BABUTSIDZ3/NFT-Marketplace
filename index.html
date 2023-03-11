@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <script src="https://kit.fontawesome.com/7ee0d149ac.js" crossorigin="anonymous"></script>
 </head>
 
@@ -19,7 +20,9 @@
             <li><a href="">Marketplace</a></li>
             <li><a href="">Rankings</a></li>
             <li><a href="">Connect a wallet</a></li>
-            <li><a href="./account/account.html"><div id="head-signup"><img src="./images/User.svg">Sign Up</div></a></li>
+            <li><a href="./account/account.html">
+                    <div id="head-signup"><img src="./images/User.svg">Sign Up</div>
+                </a></li>
         </ul>
     </header>
     <section id="sec-1">
@@ -53,60 +56,131 @@
         <div id="sec-1-gif"><img src="./images/heroanimationtransparentbck-2 (1).gif"></div>
     </section>
     <section id="sec-2">
-        <div id="sec-2-txt">
-            <div id="sec-2-txt-h2">
-                <h2>Trending Collection</h2>
-            </div>
-            <div id="sec-2-txt-p">
-                <p>Checkout our weekly updated trending collection.</p>
-            </div>
+        <div id="sec-2-h2">
+            <h2>Trending Collection</h2>
         </div>
-        <div id="sec-2-div" class="slider">
-            <i class="fa-solid fa-arrow-right slider-btn" id="right"></i>
-            <i class="fa-solid fa-arrow-left slider-btn hide" id="left"></i>
-            <div id="sec-2-div-div" class="slide">
-                <div id="sec-2-div-div-main-img"><img src="./images/Primary Photo Placeholder.svg" id="hover"></div>
-                <div id="sec-2-div-div-images"><img src="./images/Secondary Photo Placeholder.svg" id="hover"><img
-                        src="./images/Secondary Photo Placeholder2.svg" id="hover"><img
-                        src="./images/Number of additional NFTs.svg" id="hover"></div>
-                <div id="sec-2-div-div-foot">
-                    <div id="sec-2-div-div-foot-txt">
-                        <p>DSGN Animals</p>
-                    </div>
-                    <div class="sec-2-div-div-foot-foot1"><img src="./images/Avatar Placeholder.svg">
-                        <p>MrFox</p>
-                    </div>
-                </div>
-            </div>
-            <div id="sec-2-div-div2" class="slide">
-                <div id="sec-2-div-div-main-img"><img src="./images/Primary Photo Placeholder2.svg" id="hover"></div>
-                <div id="sec-2-div-div-images"><img src="./images/Secondary Photo Placeholder3.svg" id="hover"><img
-                        src="./images/Secondary Photo Placeholder4.svg" id="hover"><img
-                        src="./images/Number of additional NFTs.svg" id="hover"></div>
-                <div id="sec-2-div-div-foot">
-                    <div id="sec-2-div-div-foot-txt">
-                        <p>Magic Mushrooms</p>
-                    </div>
-                    <div id="sec-2-div-div-foot-foot"><img src="./images/Avatar Placeholder2.svg">
-                        <p>Shroomie</p>
-                    </div>
-                </div>
-            </div>
-            <div id="sec-2-div-div3" class="slide">
-                <div id="sec-2-div-div-main-img"><img src="./images/Primary Photo Placeholder3.svg" id="hover"></div>
-                <div id="sec-2-div-div-images"><img src="./images/Secondary Photo Placeholder5.svg" id="hover"><img
-                        src="./images/Secondary Photo Placeholder6.svg" id="hover"><img
-                        src="./images/Number of additional NFTs.svg" id="hover"></div>
-                <div id="sec-2-div-div-foot">
-                    <div id="sec-2-div-div-foot-txt">
-                        <p>Disco Machines</p>
-                    </div>
-                    <div class="sec-2-div-div-foot-foot"><img src="./images/Avatar Placeholder3.svg">
-                        <p>BeKind2Robots</p>
-                    </div>
-                </div>
-            </div>
+        <div id="sec-2-p">
+            <p>Checkout our weekly updated trending collection.</p>
         </div>
+
+
+        <div id="sec-2-div">
+
+            <div id="sec-2-div-div">
+                <div id="sec-2-div-div-main-img"><img src="./images/Primary Photo Placeholder.svg"></div>
+                <div id="sec-2-div-images">
+                    <img src="./images/Secondary Photo Placeholder.svg"><img
+                        src="./images/Secondary Photo Placeholder2.svg"><img
+                        src="./images/Number of additional NFTs.svg">
+                </div>
+                <div id="sec-2-div-txt">
+                    <p>DSGN Animals</p>
+                </div>
+                <div id="sec-2-div-txt2"><img src="./images/Avatar Placeholder.svg">
+                    <p>MrFox</p>
+                </div>
+            </div>
+
+            <div id="sec-2-div-div">
+                <div id="sec-2-div-div-main-img"><img src="./images/Primary Photo Placeholder2.svg"></div>
+                <div id="sec-2-div-images">
+                    <img src="./images/Primary Photo Placeholder2.svg"><img
+                        src="./images/Secondary Photo Placeholder4.svg"><img
+                        src="./images/Number of additional NFTs.svg">
+                </div>
+                <div id="sec-2-div-txt">
+                    <p>DSGN Animals</p>
+                </div>
+                <div id="sec-2-div-txt2"><img src="./images/Avatar Placeholder.svg">
+                    <p>MrFox</p>
+                </div>
+            </div>
+            <div id="sec-2-div-div">
+                <div id="sec-2-div-div-main-img"><img src="./images/Primary Photo Placeholder3.svg"></div>
+                <div id="sec-2-div-images">
+                    <img src="./images/Secondary Photo Placeholder5.svg"><img
+                        src="./images/Secondary Photo Placeholder6.svg"><img
+                        src="./images/Number of additional NFTs.svg">
+                </div>
+                <div id="sec-2-div-txt">
+                    <p>DSGN Animals</p>
+                </div>
+                <div id="sec-2-div-txt2"><img src="./images/Avatar Placeholder.svg">
+                    <p>MrFox</p>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div id="swiper-div">
+                        <div id="swiper-div-main-img"><img src="./images/Primary Photo Placeholder.svg"></div>
+                        <div id="swiper-div-images">
+                            <img src="./images/Secondary Photo Placeholder.svg"><img
+                                src="./images/Secondary Photo Placeholder2.svg"><img
+                                src="./images/Number of additional NFTs.svg">
+                        </div>
+                        <div id="swiper-div-txt">
+                            <p>DSGN Animals</p>
+                        </div>
+                        <div id="swiper-div-txt2"><img src="./images/Avatar Placeholder.svg">
+                            <p>MrFox</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div id="swiper-div">
+                        <div id="swiper-div-main-img"><img src="./images/Primary Photo Placeholder2.svg"></div>
+                        <div id="swiper-div-images">
+                            <img src="./images/Secondary Photo Placeholder3.svg"><img
+                                src="./images/Secondary Photo Placeholder4.svg"><img
+                                src="./images/Number of additional NFTs.svg">
+                        </div>
+                        <div id="swiper-div-txt">
+                            <p>Magic Mushrooms</p>
+                        </div>
+                        <div id="swiper-div-txt2"><img src="./images/Avatar Placeholder2.svg">
+                            <p>Shroomie</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div id="swiper-div">
+                        <div id="swiper-div-main-img"><img src="./images/Primary Photo Placeholder3.svg"></div>
+                        <div id="swiper-div-images">
+                            <img src="./images/Secondary Photo Placeholder5.svg"><img
+                                src="./images/Secondary Photo Placeholder6.svg"><img
+                                src="./images/Number of additional NFTs.svg">
+                        </div>
+                        <div id="swiper-div-txt">
+                            <p>BeKind2Robots</p>
+                        </div>
+                        <div id="swiper-div-txt2"><img src="./images/Avatar Placeholder3.svg">
+                            <p>Shroomie</p>
+                        </div>
+                    </div>
+                </div>
+                ...
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
+        </div>
+
+
+
+
+
+
+
+
+
     </section>
     <section id="sec-3">
         <div id="sec-3txt">
@@ -463,38 +537,62 @@
                 <div id="sec-8-div2-p">
                     <p>Get exclusive promotions & updates straight to your inbox.</p>
                 </div>
-                    <form id="sec-8-div2-mail">
-                        <input type="email" name="mail" id="sec-8-div2-mail-mail" placeholder="Enter your email here" required>
-                        <button type="submit" id="sec-8-div2-mail-mail-btn"><img src="./images/EnvelopeSimple.svg"><p>Subscribe</p></button>
-                    </form>
+                <form id="sec-8-div2-mail">
+                    <input type="email" name="mail" id="sec-8-div2-mail-mail" placeholder="Enter your email here"
+                        required>
+                    <button type="submit" id="sec-8-div2-mail-mail-btn"><img src="./images/EnvelopeSimple.svg">
+                        <p>Subscribe</p>
+                    </button>
+                </form>
             </div>
         </div>
     </section>
     <section id="sec-9">
         <div id="sec-9-div">
-            <div id="sec-9-div-head"><img src="./images/logo.svg"></div> 
-            <div id="sec-9-div-txt"><p>NFT marketplace UI created with Anima for Figma.</p></div> 
-            <div id="sec-9-div-txt2"><p>Join our community</p></div>
-            <div id="sec-9-div-icons"><i class="fa-brands fa-discord"></i><i class="fa-brands fa-youtube"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-instagram"></i></div>
+            <div id="sec-9-div-head"><img src="./images/logo.svg"></div>
+            <div id="sec-9-div-txt">
+                <p>NFT marketplace UI created with Anima for Figma.</p>
+            </div>
+            <div id="sec-9-div-txt2">
+                <p>Join our community</p>
+            </div>
+            <div id="sec-9-div-icons"><i class="fa-brands fa-discord"></i><i class="fa-brands fa-youtube"></i><i
+                    class="fa-brands fa-twitter"></i><i class="fa-brands fa-instagram"></i></div>
         </div>
         <div id="sec-9-div">
-            <div id="sec-9-div-head"><h2>Explore</h2></div> 
-            <div id="sec-9-div-txt"><p>Marketplace</p></div> 
-            <div id="sec-9-div-txt2"><p>Rankings</p></div>
-            <div id="sec-9-div-txt3"><p>Connect a wallet</p></div>
+            <div id="sec-9-div-head">
+                <h2>Explore</h2>
+            </div>
+            <div id="sec-9-div-txt">
+                <p>Marketplace</p>
+            </div>
+            <div id="sec-9-div-txt2">
+                <p>Rankings</p>
+            </div>
+            <div id="sec-9-div-txt3">
+                <p>Connect a wallet</p>
+            </div>
         </div>
         <div id="sec-9-div">
-            <div id="sec-9-div-head"><h2>Join our weekly digest</h2></div> 
-            <div id="sec-9-div-txt"><p>Get exclusive promotions & updates straight to your inbox.</p></div> 
+            <div id="sec-9-div-head">
+                <h2>Join our weekly digest</h2>
+            </div>
+            <div id="sec-9-div-txt">
+                <p>Get exclusive promotions & updates straight to your inbox.</p>
+            </div>
             <form id="sec-9-div-mail" class="sec-9-div-mail">
                 <input type="email" name="mail" id="sec-8-div2-mail-mail" placeholder="Enter your email here" required>
-                <button type="submit" id="sec-8-div2-mail-mail-btn" class="sec-8-div2-mail-mail-btn"><img src="./images/EnvelopeSimple.svg"><p>Subscribe</p></button>
+                <button type="submit" id="sec-8-div2-mail-mail-btn" class="sec-8-div2-mail-mail-btn"><img
+                        src="./images/EnvelopeSimple.svg">
+                    <p>Subscribe</p>
+                </button>
             </form>
         </div>
         <div id="sec-9-foot">
             <p>Ⓒ NFT Market. Use this template freely.</p>
         </div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./main.js"></script>
 </body>
 

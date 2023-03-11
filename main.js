@@ -1,39 +1,11 @@
 let headerul = document.getElementById('header-ul')
-let slide = document.querySelectorAll('.slide')
-let btn_right = document.getElementById('right')
-let btn_left = document.getElementById('left')
 let bar = document.querySelector('.fa-bars')
 let sec3right = document.getElementById('sec-3-right')
 let sec3left = document.getElementById('sec-3-left')
 let slide1 = document.getElementById('sec-3-div1')
 let slide2 = document.getElementById('sec-3-div2')
 let counter = 0
-slide.forEach((value, index) => {
-    value.style.transform = `translate(${index * 300}%)` // 0 100 200
-})
-btn_right.addEventListener('click', () => {
-    if (counter == slide.length - 1) {
-        counter = 0
-    }
-    else {
-        counter++
-    }
-    slide.forEach((value, index) => {
-        value.style.transform = `translate(${(index - counter) * 300}%)` // 0 100 200
-    })
-})
 
-btn_left.addEventListener('click', () => {
-    if (counter == 0) {
-        counter = slide.length - 1
-    }
-    else {
-        counter--
-    }
-    slide.forEach((value, index) => {
-        value.style.transform = `translate(${(index - counter) * 300}%)` // 100
-    })
-})
 bar.addEventListener('click', function () {
     headerul.classList.toggle('show')
     bar.classList.toggle('fa-x')
@@ -81,10 +53,34 @@ function myfunc() {
             timeron.style.display='none'
         }
     }, 1000)
-
-
-
-
 }
 myfunc()
+
+
+const swiper = new Swiper('.swiper', {
+    effect:'cube',
+grabCursor:true,
+cubeEffect:{
+    shadow:true,
+    slideshadows:true,
+    shadowOffset:20,
+    shadowScale:0.94,
+},
+  direction: 'horizontal',
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
 
