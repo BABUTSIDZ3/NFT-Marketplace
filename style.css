@@ -967,9 +967,9 @@ header {
     border-radius: 10px;
     color: #fff;
     width: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 #sec-9-div-mail {
