@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "mainimg": "../images/image-placeholder@2x.webp",
+        "img":"../images/sec-5-smallimgAvatar Placeholder.webp",
+        "text":"AstroFiction",
+        "text2":"MoonDancer",
+        "pricedivtxt1":"Price",
+        "pricedivtxt2":"Highest Bid",
+        "price":"1.63 ETH",
+        "highest bid":"0.33 wETH"
+    },
+    {
+        "id": 2,
+        "mainimg": "../images/image-placeholder-1@2x.webp",
+        "img":"../images/sec-5-smallimgAvatar Placeholder.webp",
+        "text":"Life On Edena",
+        "text2":"MoonDancer",
+        "pricedivtxt1":"Price",
+        "pricedivtxt2":"Highest Bid",
+        "price":"1.70 ETH",
+        "highest bid":"0.41 wETH"
+    },
+    {
+        "id": 3,
+        "mainimg": "../images/image-placeholder-2@2x.webp",
+        "img":"../images/sec-5-smallimgAvatar Placeholder.webp",
+        "text":"AstroFiction",
+        "text2":"MoonDancer",
+        "pricedivtxt1":"Price",
+        "pricedivtxt2":"Highest Bid",
+        "price":"2.23 ETH",
+        "highest bid":"0.73 wETH"
+    },
+    {
+        "id": 4,
+        "mainimg": "../images/sec-5-1Image Placeholder.webp",
+        "img":"../images/sec-5-smallimgAvatar Placeholder.webp",
+        "text":"AstroFiction",
+        "text2":"MoonDancer",
+        "pricedivtxt1":"Price",
+        "pricedivtxt2":"Highest Bid",
+        "price":"2.23 ETH",
+        "highest bid":"0.73 wETH"
+    },
+    {
+        "id": 5,
+        "mainimg": "../images/sec-5-2Image Placeholder.webp",
+        "img":"../images/sec-5-smallimgAvatar Placeholder.webp",
+        "text":"shroomie",
+        "text2":"NebulaKid",
+        "pricedivtxt1":"Price",
+        "pricedivtxt2":"Highest Bid",
+        "price":"2.23 ETH",
+        "highest bid":"0.73 wETH"
+    },
+    {
+        "id": 6,
+        "mainimg": "../images/image-placeholder-65@2x.webp",
+        "img":"../images/sec-5-smallimgAvatar Placeholder.webp",
+        "text":"AstroFiction",
+        "text2":"NebulaKid",
+        "pricedivtxt1":"Price",
+        "pricedivtxt2":"Highest Bid",
+        "price":"2.23 ETH",
+        "highest bid":"0.73 wETH"
+    },
+    {
+        "id": 7,
+        "mainimg": "../images/sec-5-1Image Placeholder.webp",
+        "img":"../images/sec-5-smallimgAvatar Placeholder.webp",
+        "text":"nebulakid",
+        "text2":"MoonDancer",
+        "pricedivtxt1":"Price",
+        "pricedivtxt2":"Highest Bid",
+        "price":"2.23 ETH",
+        "highest bid":"0.73 wETH"
+    },
+    {
+        "id": 8,
+        "mainimg": "../images/sec-5-2Image Placeholder.webp",
+        "img":"../images/sec-5-smallimgAvatar Placeholder.webp",
+        "text":"shroomie",
+        "text2":"NebulaKid",
+        "pricedivtxt1":"Price",
+        "pricedivtxt2":"Highest Bid",
+        "price":"2.23 ETH",
+        "highest bid":"0.73 wETH"
+    },
+    {
+        "id": 9,
+        "mainimg": "../images/image-placeholder-65@2x.webp",
+        "img":"../images/sec-5-smallimgAvatar Placeholder.webp",
+        "text":"AstroFiction",
+        "text2":"NebulaKid",
+        "pricedivtxt1":"Price",
+        "pricedivtxt2":"Highest Bid",
+        "price":"2.23 ETH",
+        "highest bid":"0.73 wETH"
+    }
+
+]

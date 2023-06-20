@@ -1,0 +1,163 @@
+[
+    {
+        "id": 1,
+        "img": "../images/rankingsAvatar Placeholder.webp",
+        "name": "Jaydon Ekstrom Bothman",
+        "change": "+1.41%",
+        "sold": "602",
+        "volume": "12.4 ETH"
+    },
+    {
+        "id": 2,
+        "img": "../images/rankings2Avatar Placeholder.webp",
+        "name": "Ruben Carder",
+        "change": "+2.1%",
+        "sold": "610",
+        "volume": "12.1 ETH"
+    },
+    {
+        "id": 3,
+        "img": "../images/rankings3Avatar Placeholder.webp",
+        "name": "Alfredo Septimus",
+        "change": "+1.8%",
+        "sold": "591",
+        "volume": "11.8 ETH"
+    },
+    {
+        "id": 4,
+        "img": "../images/rankings4Avatar Placeholder.webp",
+        "name": "Davis Franci",
+        "change": "+1.92%",
+        "sold": "600",
+        "volume": "12.01 ETH"
+    },
+    {
+        "id": 5,
+        "img": "../images/rankings5Avatar Placeholder.webp",
+        "name": "Livia Rosser",
+        "change": "+1.99%",
+        "sold": "601",
+        "volume": "12.21 ETH"
+    },
+    {
+        "id": 6,
+        "img": "../images/rankings6Avatar Placeholder.webp",
+        "name": "Kianna Donin",
+        "change": "+2.01%",
+        "sold": "608",
+        "volume": "12.72 ETH"
+    },
+    {
+        "id": 7,
+        "img": "../images/rankings7Avatar Placeholder.webp",
+        "name": "Phillip Lipshutz",
+        "change": "+2.51%",
+        "sold": "622",
+        "volume": "13.22 ETH"
+    },
+    {
+        "id": 8,
+        "img": "../images/rankings8Avatar Placeholder.webp",
+        "name": "Maria Rosser",
+        "change": "+1.11%",
+        "sold": "512",
+        "volume": "10.72 ETH"
+    },
+    {
+        "id": 9,
+        "img": "../images/rankings9Avatar Placeholder.webp",
+        "name": "Kianna Stanton",
+        "change": "+1.71%",
+        "sold": "572",
+        "volume": "11.57 ETH"
+    },
+    {
+        "id": 10,
+        "img": "../images/rankings10Avatar Placeholder.webp",
+        "name": "Angel Lubin",
+        "change": "+1.98%",
+        "sold": "617",
+        "volume": "12.17 ETH"
+    },
+    {
+        "id": 11,
+        "img": "../images/rankings11Avatar Placeholder.webp",
+        "name": "Allison Torff",
+        "change": "+1.48%",
+        "sold": "600",
+        "volume": "11.47 ETH"
+    },
+    {
+        "id": 12,
+        "img": "../images/rankings12Avatar Placeholder.webp",
+        "name": "Davis Workman",
+        "change": "-1.18%",
+        "sold": "521",
+        "volume": "9.40 ETH"
+    },
+    {
+        "id": 13,
+        "img": "../images/rankings13Avatar Placeholder.webp",
+        "name": "Lindsey Lipshutz",
+        "change": "+1.44%",
+        "sold": "575",
+        "volume": "10.47 ETH"
+    },
+    {
+        "id": 14,
+        "img": "../images/rankings14Avatar Placeholder.webp",
+        "name": "Randy Carder",
+        "change": "+2.0%",
+        "sold": "608",
+        "volume": "11.77 ETH"
+    },
+    {
+        "id": 15,
+        "img": "../images/rankings15Avatar Placeholder.webp",
+        "name": "Lydia Culhane",
+        "change": "+2.2%",
+        "sold": "614",
+        "volume": "11.99 ETH"
+    },
+    {
+        "id": 16,
+        "img": "../images/rankings16Avatar Placeholder.webp",
+        "name": "Rayna Bator",
+        "change": "+2.45%",
+        "sold": "641",
+        "volume": "12.39 ETH"
+    },
+    {
+        "id": 17,
+        "img": "../images/rankings17Avatar Placeholder.webp",
+        "name": "Jocelyn Westervelt",
+        "change": "+2.20%",
+        "sold": "624",
+        "volume": "12.00 ETH"
+    },
+    {
+        "id": 18,
+        "img": "../images/rankings18Avatar Placeholder.webp",
+        "name": "Marilyn Torff",
+        "change": "+2.51%",
+        "sold": "641",
+        "volume": "12.80 ETH"
+    },
+    {
+        "id": 19,
+        "img": "../images/rankings19Avatar Placeholder.webp",
+        "name": "Skylar Levin",
+        "change": "+2.74%",
+        "sold": "673",
+        "volume": "12.97 ETH"
+    },
+    {
+        "id": 20,
+        "img": "../images/rankings20Avatar Placeholder.webp",
+        "name": "Terry Dorwart",
+        "change": "+2.98%",
+        "sold": "701",
+        "volume": "13.42 ETH"
+    }
+    
+]
